@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Tunisia food</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+
+
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Simple & Tasty traditionnal Recipes</h1>
+                <p>Bringing the taste of Tunisia to your doorstep..</p>
+                <button>Explore More</button>
+            </div>
+            <div>
+                <img src="mloukya.png" alt="">
+            </div>
+
+        <!--  Card Food -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img  width="300" height="300" src="https://www.196flavors.com/wp-content/uploads/2014/07/Tunisia-Tuna-Briks-2.jpg">
+                            <h2>Brik Tunisien</h2>
+                            <p>Brik is the Tunisian version of borek. Originally a Turkish dish, it refers to a family of stuffed filo pastry dishes commonly consumed in countries throughout the Balkans,the Middle East and North Africa.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img width="300" height="300" src="https://www.willflyforfood.net/wp-content/uploads/2023/02/tunisian-dishes-couscous.jpg.webp" alt="Couscous prepared with meat and seafood, a traditional dish in Tunisian cuisine" width="1200" height="800" id="mv-trellis-img-2" data-trellis-processed="1">
+                            <h1>Couscous</h1>
+                            <p>There’s no better way to start this Tunisian food guide than with couscous. Known as kosksi in the Tunisian dialect, couscous is a staple dish in North African cuisines and is considered a national dish in Tunisia.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img width="300" height="300" title="Tunisian Food" src="https://www.willflyforfood.net/wp-content/uploads/2023/02/tunisian-dishes-mechouia-salad.jpg.webp" alt="Mechouia salad, a traditional Tunisian salad made with grilled mashed vegetables" width="1200" height="1093" id="mv-trellis-img-7" data-trellis-processed="1">
+                            <h1>Mechouia Salad</h1>
+                            <p>Mechouia salad is one of the most popular dishes in Tunisian cuisine. Served at the start of almost every Tunisian meal, it refers to a simple Tunisian salad made with mashed grilled vegetables.</p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img width="300" height="300" src="https://www.willflyforfood.net/wp-content/uploads/2023/02/tunisian-dishes-fricassee.jpg.webp" alt="Fricassee, a Tunisian fried sandwich made with tuna, hummus, and boiled egg" >
+                            <h1>A tunisian Fricassee.</h1>
+                            <p>IT is a savory fried pastry often filled with tuna, hard-boiled egg, olives, harissa, preserved lemons, capers and mashed potato, with turmeric as a condiment.</p>
+                            <button>Order Now</button>
+                        </div>
+                        
+                        <div class="card">
+                            <img width="300" height="300" src="https://kawa-news.com/wp-content/uploads/2022/12/bigstock-Traditional-Maghrebi-Hot-Chili-346524424-820x500.jpg" class="article__cover-img wp-post-image" >
+                            <h1>A tunisian harissa</h1>
+                            <p>Harissa  is a hot chili pepper paste, native to Tunisia. The main ingredients are roasted red peppers.It contains more than 85 % of fresh red chili pepper.</p>
+                            <button>Order Now</button>
+                        </div>
+                
+                        <div class="card">
+                            <img width="300" height="300" src="https://www.willflyforfood.net/wp-content/uploads/2022/01/tunisian-food-lablabi.jpg.webp" alt="Lablabi, a traditional Tunisian chickpea soup">
+                            <h1>Lablabi</h1>
+                            <p>Lablabi is a Tunisian food Served over pieces of stale crusty bread, it’s commonly eaten for lunch or dinner, especially during colder weather to help the body stay warm.</p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="" alt="">
+                            <h2>Fact About tunisian Food</h2>
+                            <p>.</p>
+                            <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="" alt="">
+                            <h2>Diffrent Type of Couscous</h2>
+                            <p>.</p>
+                            <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="" alt="">
+                            <h2>Tunisian Recipes</h2>
+                            <p>.</p>
+                            <a href="https://themodernproper.com/60-best-chicken-breast-recipes">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Customer Review -->
+
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            <div class="customer">
+                <img src="men (1).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>I had a great time eating delicious food at your restaurant. The waiters were commited to great services and were very friendly</p>
+                
+            </div>
+            <div class="customer">
+                <img src="men (2).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>staff is really what has me coming back.This location has a great set of people,they are wonderful and always working hard!</p>
+                
+            </div>
+            <div class="customer">
+                <img src="men (3).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Presentation could be a little more creative.I would eat her again.Service was good as well.</p>
+                
+            </div>
+
+            
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>PEW PEW AHMED MOUHSIN</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Product</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>location</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>
